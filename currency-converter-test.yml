@@ -1,18 +1,18 @@
 news:
-  url: ${NEWS_URL:https://api.apilayer.com/financelayer/news}
-  key: ${NEWS_KEY:8834a53d7937fb35293619382c579b95b815e0b264676148a032f5f63cc5e6091fdcf4535171e2f451400f724cfcb616cb68acdcac8f1727312fd230de82fefe
+  url: {cipher}e1596c1cd1844bb3abb7d46df8c8df40d304cc0d278adb5e954cfde1901fa434c8bc02917881a23a04b19f2ebab3c222560aa01d459f603c6761d82fa5268306
+  key: {cipher}5b3f2b5fe694f25d2569f751dad1e00355a64ab376fb98b19b61a310f004b3adfb2693e80f254d59506e4ad6f2b50894f3d60cb2217ed4e0eb9d719902b228dd
 currency:
-  url: ${API_URL:https://api.apilayer.com/exchangerates_data/convert}
-  key: ${API_KEY:8834a53d7937fb35293619382c579b95b815e0b264676148a032f5f63cc5e6091fdcf4535171e2f451400f724cfcb616cb68acdcac8f1727312fd230de82fefe
+  url: {cipher}d092d6221e7dd8172a6a984ac9b17bbe58f795c01dd2f49057e862bbaa49a108e2d7b7ccdb0742df61466eb11e864f1a01f8327036167d2f5e47be78f96793d139fd3dd99716c4e042a6154743a50a6f
+  key: {cipher}5b3f2b5fe694f25d2569f751dad1e00355a64ab376fb98b19b61a310f004b3adfb2693e80f254d59506e4ad6f2b50894f3d60cb2217ed4e0eb9d719902b228dd
 server:
   port: {cipher}8377a5d1d950df96a118445e87e58c94be02c89dca2f85db6268debe442005b9
 
 spring:
   datasource:
     type: org.postgresql.jdbc2.optional.SimpleDataSource
-    username: ${USER_NAME:postgres}
-    password: ${PASSWORD:mysecretpassword}
-    url: ${URL:jdbc:postgresql://localhost:5431/postgres}
+    username: {cipher}0e641bf3efeb235791815345c7f420ca9809640d8fe412c26ec3161548887b0a
+    password: {cipher}d2f36db932e77d27f2429c247cf03c886bfd0ea99ec8f7282b43a5587e4153aaa19a15f6db8131c5be1c2c000eadaa27
+    url: {cipher}28338a15c2f11d76b32d1f1d73bfe66b03a244687be4bc230d0d7074e304585d866ebd487638beab2ae5774f1c2f583aa9e650544f23c5d95dbabeb6ce56f353
   config:
     import: optional:file:.env[.properties]
   jpa:
@@ -24,7 +24,7 @@ keycloak:
   auth-server-url: http://172.18.11.111:8081
   autodetect-bearer-only:  true
   credentials:
-    secret: rHQt08HXef8oRlgXRhjB2Q2qW99GdjgX
+    secret: {cipher}430b0ce9d1701fadab46c42ca200bbde4ef81ef56e8717510aa8621699d58a8abd2bf454f3c962255ed9b096d8ba26d50df2b226d43a9bb9698fb56105272ab6
   realm: software
   ssl-required: none
   resource: backend
