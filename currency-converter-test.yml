@@ -1,11 +1,11 @@
 news:
   url: ${NEWS_URL:https://api.apilayer.com/financelayer/news}
-  key: ${NEWS_KEY:7kFsNWgEr4jIYz7i9I7l3TkzmvG572Wd}
+  key: ${NEWS_KEY:{cipher}30475287180e5199a1dddf253a114972db3e917298eb56463299f5c53a074446c04cf9e1b4d05a57b28b7fee4a0fb94d4222726d08b9722991ed255908e3fece}
 currency:
   url: ${API_URL:https://api.apilayer.com/exchangerates_data/convert}
-  key: ${API_KEY:7kFsNWgEr4jIYz7i9I7l3TkzmvG572Wd}
+  key: ${API_KEY:{cipher}30475287180e5199a1dddf253a114972db3e917298eb56463299f5c53a074446c04cf9e1b4d05a57b28b7fee4a0fb94d4222726d08b9722991ed255908e3fece}
 server:
-  port: 9009
+  port: {cipher}8377a5d1d950df96a118445e87e58c94be02c89dca2f85db6268debe442005b9
 
 spring:
   datasource:
