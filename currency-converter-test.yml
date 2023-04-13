@@ -1,9 +1,9 @@
 news:
   url: ${NEWS_URL:https://api.apilayer.com/financelayer/news}
-  key: ${NEWS_KEY:{cipher}30475287180e5199a1dddf253a114972db3e917298eb56463299f5c53a074446c04cf9e1b4d05a57b28b7fee4a0fb94d4222726d08b9722991ed255908e3fece}
+  key: ${NEWS_KEY:8834a53d7937fb35293619382c579b95b815e0b264676148a032f5f63cc5e6091fdcf4535171e2f451400f724cfcb616cb68acdcac8f1727312fd230de82fefe
 currency:
   url: ${API_URL:https://api.apilayer.com/exchangerates_data/convert}
-  key: ${API_KEY:{cipher}30475287180e5199a1dddf253a114972db3e917298eb56463299f5c53a074446c04cf9e1b4d05a57b28b7fee4a0fb94d4222726d08b9722991ed255908e3fece}
+  key: ${API_KEY:8834a53d7937fb35293619382c579b95b815e0b264676148a032f5f63cc5e6091fdcf4535171e2f451400f724cfcb616cb68acdcac8f1727312fd230de82fefe
 server:
   port: {cipher}8377a5d1d950df96a118445e87e58c94be02c89dca2f85db6268debe442005b9
 
