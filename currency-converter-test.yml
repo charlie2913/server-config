@@ -46,3 +46,8 @@ keycloak:
             - OPTIONS
           patterns:
             - /api/v1/currency/exchange
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
